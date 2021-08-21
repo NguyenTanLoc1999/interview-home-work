@@ -1,0 +1,27 @@
+.container-column {
+  padding: 50px 30px;
+  .container-row-title {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .container-row-author {
+    justify-content: space-between;
+    font-size: 17px;
+    margin-bottom: 10px;
+    .container-column-tag {
+      display: flex;
+      font-weight: bold;
+    }
+  }
+  .container-row-content {
+    margin-bottom: 15px;
+  }
+  .container-row-reply {
+    position: relative;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+  }
+}

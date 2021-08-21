@@ -1,0 +1,17 @@
+$board-bg-color: #0079bf;
+$navbar-app-height: 10vh;
+
+$board-content-height: 39vh;
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  line-height: 1.3em;
+}
+
+.App {
+  height: 200vh;
+  margin: 0;
+  overflow: hidden;
+}

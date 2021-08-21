@@ -1,0 +1,25 @@
+.comments {
+  display: flex;
+  .comment__avatar {
+    display: block;
+    width: 50px;
+    img {
+      width: 70%;
+    }
+  }
+  .comment-info {
+    width: 100%;
+    .comment-info__name,
+    .comment-info__reply {
+      color: #7b6b6b;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    .comment-info__name span {
+      color: #ccc;
+    }
+    .comment-info__content {
+      margin-bottom: 10px;
+    }
+  }
+}
